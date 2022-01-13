@@ -35,8 +35,6 @@ I'm glad if you have any feedback or give pull requests to this project.
 
 This project is only available for free academic discussions.
 
-License [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)
-
 ## Dependencies
 
 > github.com/gocolly/colly
