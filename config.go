@@ -12,12 +12,12 @@ import (
 var Conf Configuration
 
 type Configuration struct {
-	TermId   string   `json:"termId" yaml:"termId"`
-	Username string   `json:"username" yaml:"username"`
-	Password string   `json:"password" yaml:"password"`
-	Courses  []Course `json:"courses" yaml:"courses"`
-	Multithreading bool `json:"multithreading" yaml:"multithreading"`
-	LoopTrail      bool `json:"loopTrail" yaml:"loopTrail"`
+	TermId         string   `json:"termId" yaml:"termId"`
+	Username       string   `json:"username" yaml:"username"`
+	Password       string   `json:"password" yaml:"password"`
+	Courses        []Course `json:"courses" yaml:"courses"`
+	Multithreading bool     `json:"multithreading" yaml:"multithreading"`
+	EndlessLoop    bool     `json:"endlessLoop" yaml:"endlessLoop"`
 }
 
 type Course struct {

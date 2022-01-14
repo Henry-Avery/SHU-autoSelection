@@ -29,7 +29,7 @@ func main() {
 
 	c.Async = Conf.Multithreading // Use multithreading: true or false
 
-	for Conf.LoopTrail {
+	for Conf.EndlessLoop {
 		QueryCourse(c) // start loop trailing
 	}
 	QueryCourse(c) // just once
@@ -97,7 +97,7 @@ func QueryCourse(c *colly.Collector) {
 			"CID":            course.CourseId,
 			"TeachNo":        course.TeacherNo,
 			"FunctionString": "LoadData",
-			"IsNotFull":      strconv.FormatBool(Conf.LoopTrail),
+			"IsNotFull":      strconv.FormatBool(Conf.EndlessLoop),
 			"PageIndex":      "1",
 			"PageSize":       "10",
 		})

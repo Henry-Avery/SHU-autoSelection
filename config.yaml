@@ -6,7 +6,7 @@ password: Abcde12345 # your password
 
 multithreading: true # warning: please be careful to use multithreading
 
-loopTrail: true # start loopTrail
+endlessLoop: true # start loop
 
 courses:
   - courseId: 08300001 # the course id you want to select
